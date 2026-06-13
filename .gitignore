@@ -1,0 +1,40 @@
+```gitignore
+# Competition dataset
+dataset/
+train.csv
+test.csv
+*.zip
+
+# Generated prediction files
+submission.csv
+submission_*.csv
+FINAL_*.csv
+smart_blends/
+
+# Jupyter files
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+conda-env/
+
+# Saved models
+*.pkl
+*.joblib
+*.cbm
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+```
